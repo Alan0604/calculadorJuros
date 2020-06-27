@@ -1,0 +1,40 @@
+/* .forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+} */
+
+.parcelNumbers {
+  margin: 20px 100px 100px 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 170px));
+  grid-gap: 16px;
+  justify-content: center;
+}
+
+.forms {
+  width: 150px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 8px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.idParcelNumbers {
+  color: #01579b;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.valor {
+  align-items: center;
+  color: #01579b;
+  font-weight: bold;
+}
